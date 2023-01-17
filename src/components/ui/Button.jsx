@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 export function Button(props) {
     return (
         <>
-            <button {...props}> {props.children} </button>
+            <button {...props} style={{color: 'black'}} onClick={props.click}> {props.children} </button>
         </>
     )
 }
