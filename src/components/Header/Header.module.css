@@ -1,0 +1,14 @@
+.header {
+    background-color: #ccc;
+    padding: 15px 0;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header li {
+    list-style-type: none;
+}
